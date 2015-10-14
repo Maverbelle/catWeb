@@ -67,6 +67,10 @@ body {
   }
 }
 
+a {
+  color: $link-color;
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
@@ -90,4 +94,9 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+
+  a {
+    color: $link-color;
+  }
+
 }
