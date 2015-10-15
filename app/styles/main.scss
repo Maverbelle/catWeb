@@ -1,5 +1,5 @@
 $icon-font-path: '../fonts/';
-@import "variables";
+
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
@@ -21,7 +21,7 @@ body {
 .header,
 .marketing,
 .footer {
-  padding-left: 105px;
+  padding-left: 15px;
   padding-right: 15px;
 }
 
@@ -67,10 +67,6 @@ body {
   }
 }
 
-a {
-  color: $link-color;
-}
-
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
@@ -94,9 +90,4 @@ a {
   .jumbotron {
     border-bottom: 0;
   }
-
-  a {
-    color: $link-color;
-  }
-
 }
